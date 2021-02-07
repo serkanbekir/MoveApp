@@ -10,5 +10,6 @@ target 'MoveApp' do
   pod ‘Firebase’
   pod ‘Firebase/Analytics’
   pod ‘Firebase/RemoteConfig’
+  pod 'Alamofire', '~> 5.2'
 
 end

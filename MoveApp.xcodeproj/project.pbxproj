@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B0C81ECD78ECAEB399727D16 /* Pods_MoveApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF308DB4A8077E2ABE7D128 /* Pods_MoveApp.framework */; };
+		BCC05EDD25D00720008F305E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC05EDC25D00720008F305E /* ListViewController.swift */; };
 		BCC7AEFA25CEC19A002E4381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC7AEF925CEC19A002E4381 /* AppDelegate.swift */; };
 		BCC7AEFC25CEC19A002E4381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC7AEFB25CEC19A002E4381 /* SceneDelegate.swift */; };
 		BCC7AEFE25CEC19A002E4381 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC7AEFD25CEC19A002E4381 /* SplashViewController.swift */; };
@@ -16,11 +17,13 @@
 		BCC7AF0625CEC19B002E4381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7AF0425CEC19B002E4381 /* LaunchScreen.storyboard */; };
 		BCC7AF1425CEC5DF002E4381 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCC7AF1325CEC5DF002E4381 /* GoogleService-Info.plist */; };
 		BCC7AF2925CECD58002E4381 /* RCValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC7AF2825CECD58002E4381 /* RCValues.swift */; };
+		BCEF3E0825CFFD120091B91D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF3E0725CFFD120091B91D /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AF308DB4A8077E2ABE7D128 /* Pods_MoveApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B1E041CBE6E7D9109BA456 /* Pods-MoveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveApp.release.xcconfig"; path = "Target Support Files/Pods-MoveApp/Pods-MoveApp.release.xcconfig"; sourceTree = "<group>"; };
+		BCC05EDC25D00720008F305E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BCC7AEF625CEC19A002E4381 /* MoveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC7AEF925CEC19A002E4381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCC7AEFB25CEC19A002E4381 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		BCC7AF0725CEC19B002E4381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC7AF1325CEC5DF002E4381 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCC7AF2825CECD58002E4381 /* RCValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCValues.swift; sourceTree = "<group>"; };
+		BCEF3E0725CFFD120091B91D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E0D7677C8502946A06D7B483 /* Pods-MoveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveApp.debug.xcconfig"; path = "Target Support Files/Pods-MoveApp/Pods-MoveApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BCC05ED725D006DC008F305E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BCC05EDC25D00720008F305E /* ListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		BCC7AEED25CEC19A002E4381 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 				BCC7AF1025CEC3EC002E4381 /* Application */,
 				BCC7AF0F25CEC3CD002E4381 /* Resources */,
 				BCC7AF1125CEC40D002E4381 /* Scenes */,
+				BCEF3E0425CFFCF80091B91D /* Utils */,
 			);
 			path = MoveApp;
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 		BCC7AF1125CEC40D002E4381 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BCC05ED725D006DC008F305E /* List */,
 				BCC7AF2625CECB40002E4381 /* Splash */,
 				BCC7AF0425CEC19B002E4381 /* LaunchScreen.storyboard */,
 				BCC7AEFF25CEC19A002E4381 /* Main.storyboard */,
@@ -127,6 +141,30 @@
 				BCC7AEFD25CEC19A002E4381 /* SplashViewController.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		BCEF3E0425CFFCF80091B91D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF3E0525CFFCFE0091B91D /* Services */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BCEF3E0525CFFCFE0091B91D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF3E0625CFFD040091B91D /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BCEF3E0625CFFD040091B91D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF3E0725CFFD120091B91D /* NetworkService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEF3E0825CFFD120091B91D /* NetworkService.swift in Sources */,
 				BCC7AEFE25CEC19A002E4381 /* SplashViewController.swift in Sources */,
+				BCC05EDD25D00720008F305E /* ListViewController.swift in Sources */,
 				BCC7AEFA25CEC19A002E4381 /* AppDelegate.swift in Sources */,
 				BCC7AF2925CECD58002E4381 /* RCValues.swift in Sources */,
 				BCC7AEFC25CEC19A002E4381 /* SceneDelegate.swift in Sources */,
