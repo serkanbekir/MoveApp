@@ -3,4 +3,214 @@
    uuid = "31B11E95-3711-4AB6-95C2-CFD8D38F983C"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59C8EDF7-F6BC-4E87-899E-384BFC55FCAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Scenes/List/ListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getSearchedItems(searchedText:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "59C8EDF7-F6BC-4E87-899E-384BFC55FCAE - 2fa22ef1a5b974f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoveApp.ListPresenter.getSearchedItems(searchedText: Swift.String) -&gt; ()"
+                  moduleName = "MoveApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bekir/Documents/Projs/MoveApp/MoveApp/Scenes/List/ListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "411">
+               </Location>
+               <Location
+                  uuid = "59C8EDF7-F6BC-4E87-899E-384BFC55FCAE - c6190e8e562aad16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;MoveApp.SearchItemModel&gt;, MoveApp.LError&gt;) -&gt; () in MoveApp.ListPresenter.getSearchedItems(searchedText: Swift.String) -&gt; ()"
+                  moduleName = "MoveApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bekir/Documents/Projs/MoveApp/MoveApp/Scenes/List/ListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "78">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F03263A-55F5-45F0-99EA-65F73DCFD8C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Utils/Services/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getSearchedItems(queryItems:complition:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F03263A-55F5-45F0-99EA-65F73DCFD8C8 - 13f109bf7ec54b36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoveApp.NetworkService.getSearchedItems(queryItems: Swift.Array&lt;Foundation.URLQueryItem&gt;, complition: (Swift.Result&lt;Swift.Array&lt;MoveApp.SearchItemModel&gt;, MoveApp.LError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoveApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bekir/Documents/Projs/MoveApp/MoveApp/Utils/Services/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "857">
+               </Location>
+               <Location
+                  uuid = "9F03263A-55F5-45F0-99EA-65F73DCFD8C8 - 71b5752be72ea7de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;MoveApp.SearchResponseModel, Alamofire.AFError&gt;) -&gt; () in MoveApp.NetworkService.getSearchedItems(queryItems: Swift.Array&lt;Foundation.URLQueryItem&gt;, complition: (Swift.Result&lt;Swift.Array&lt;MoveApp.SearchItemModel&gt;, MoveApp.LError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoveApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bekir/Documents/Projs/MoveApp/MoveApp/Utils/Services/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E51BBAF-6994-4EE8-A1BE-4A00719903A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Utils/Services/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getSearchedItems(queryItems:complition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64B724CD-7562-429B-9A19-CC858C565B26"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Utils/Services/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getSearchedItems(queryItems:complition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B219D0F-9845-4313-B7BE-691CA0F4458D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Utils/Services/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getSearchedItems(queryItems:complition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E05F448-4E39-43DB-80E7-F0D3C56EB467"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Scenes/List/ListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getSearchedItems(searchedText:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E05F448-4E39-43DB-80E7-F0D3C56EB467 - c6190e8e562aacbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;MoveApp.SearchItemModel&gt;, MoveApp.LError&gt;) -&gt; () in MoveApp.ListPresenter.getSearchedItems(searchedText: Swift.String) -&gt; ()"
+                  moduleName = "MoveApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bekir/Documents/Projs/MoveApp/MoveApp/Scenes/List/ListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "337">
+               </Location>
+               <Location
+                  uuid = "6E05F448-4E39-43DB-80E7-F0D3C56EB467 - 8e203cabba8441e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MoveApp.SearchItemModel) -&gt; MoveApp.MovieUIModel in closure #1 (Swift.Result&lt;Swift.Array&lt;MoveApp.SearchItemModel&gt;, MoveApp.LError&gt;) -&gt; () in MoveApp.ListPresenter.getSearchedItems(searchedText: Swift.String) -&gt; ()"
+                  moduleName = "MoveApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bekir/Documents/Projs/MoveApp/MoveApp/Scenes/List/ListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC77AD30-DC7C-40E0-B63C-7E4293F0131F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoveApp/Scenes/List/ListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getSearchedItems(searchedText:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -14,7 +14,7 @@ class SplashViewController: UIViewController {
         static let errorMessage = "No network connection"
         static let okTitle = "Try again"
         static let storyboard = "Main"
-        static let list = "ListViewController"
+        static let list = "ListNavigationController"
     }
 
     @IBOutlet weak var splashLabel: UILabel!
@@ -35,8 +35,8 @@ class SplashViewController: UIViewController {
             showReachabilityError()
         } else {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                guard let listViewController = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: Constants.list) as? ListViewController else { return }
-                self.changeWindowRootController(listViewController)
+                guard let listNavigationController = UIStoryboard(name: Constants.storyboard, bundle: nil).instantiateViewController(withIdentifier: Constants.list) as? UINavigationController else { return }
+                self.changeWindowRootController(listNavigationController)
             }
         }
     }
