@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (5.4.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
   - Firebase (7.3.0):
     - Firebase/Core (= 7.3.0)
   - Firebase/Analytics (7.3.0):
@@ -79,6 +81,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - AlamofireImage (~> 4.1)
   - Firebase
   - Firebase/Analytics
   - Firebase/RemoteConfig
@@ -86,6 +89,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireImage
     - Firebase
     - FirebaseABTesting
     - FirebaseAnalytics
@@ -101,6 +105,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Firebase: 26223c695fe322633274198cb19dca8cb7e54416
   FirebaseABTesting: e419991eb6e92772b3c0a02fa3a675f59da692f1
   FirebaseAnalytics: 2580c2d62535ae7b644143d48941fcc239ea897a
@@ -114,6 +119,6 @@ SPEC CHECKSUMS:
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: ff8d24bda300488dc39f6865623fda9de191138f
+PODFILE CHECKSUM: 4c27857e6c49f9d175c11e9960eb7fea1db0a9b7
 
 COCOAPODS: 1.10.0

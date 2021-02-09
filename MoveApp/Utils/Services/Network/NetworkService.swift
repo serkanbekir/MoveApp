@@ -8,7 +8,15 @@
 import Foundation
 import Alamofire
 
-class NetworkService {
+protocol NetworkServiceProtocol {
+
+}
+
+class NetworkService: NetworkServiceProtocol {
+
+    private enum NetworkConstants {
+        static let search = "https://www.omdbapi.com/"
+    }
 
     static let sharedInstance = NetworkService()
 
@@ -34,5 +42,25 @@ class NetworkService {
     
     func stopReachabilityManager() {
         reachabilityManager?.stopListening()
+    }
+    
+    func getSearchedItems(queryItems: [URLQueryItem], complition: @escaping (Result<[SearchItemModel], LError>) -> Void) {
+        guard var urlComponent = URLComponents(string: NetworkConstants.search) else {
+            complition(.failure(.invalidURL))
+            return
+        }
+        urlComponent.queryItems = queryItems
+        
+        guard let url = urlComponent.url else {
+            complition(.failure(.invalidURL))
+            return
+        }
+
+        AF.request(url).validate().responseDecodable(of: SearchResponseModel.self) { [weak self] response in
+            guard let films = response.value else { return
+                complition(.failure(.invalidResponse))
+            }
+            complition(.success(films.Search))
+        }
     }
 }
